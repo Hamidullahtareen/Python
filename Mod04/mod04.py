@@ -55,7 +55,7 @@ else:
     print(f"Your hemoglobin level is low. ") 
 
 
- V.2
+
 gender = input("Please enter your gender:")
 if gender == "female":
     hemoglobin = int(input("Please enter your hemoglobin in m/l:"))
