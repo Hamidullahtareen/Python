@@ -1,6 +1,6 @@
 
 #Tehtävä 4.1
-
+""" 
 fish_size = int(input("What is the size of the fish in cm?"))
 fish = 42 
 
@@ -24,52 +24,18 @@ elif cabin_class == "B":
 elif cabin_class == "C":
     print("Windowless cabin below the car deck.")
 else:
-    print("Invalid cabin class.") 
+    print("Invalid cabin class.")  """
 
 
 #Tehtävä 4.3
 
-gender = input("Please enter your gender:")
-if gender == "female" or "male":
-    hemoglobin = int(input("Please enter your hemoglobin in m/l:"))
+""" gender = input("Please enter your gender:")
+hemoglobin = float(input("Enter the your hemoglobin m/l:"))
 
-if (117 <= hemoglobin <= 155):
-    print(f"Your hemoglobin is {hemoglobin} and it is normal.")
-else:
-    print("Your hemoglobin level is low.")
-
-if 134 <= hemoglobin <= 167:
-    print(f"Your hemoglobin is {hemoglobin} and it is normal.")
-else:
-    print("Your hemoglobin level is high.")
-
-
-
-if 117 <= hemoglobin <= 155:
-    print(f"Your hemoglobin is {hemoglobin} and it is normal.")
-elif 134 <= hemoglobin <= 167:
-    print(f"Your hemoglobin is {hemoglobin} and it is normal.")
-elif 167 < hemoglobin:
-    print("Your hemoglobin level is high.")
-else:
-    print(f"Your hemoglobin level is low. ") 
-
-
-
-gender = input("Please enter your gender:")
-if gender == "female":
-    hemoglobin = int(input("Please enter your hemoglobin in m/l:"))
-if 117 <= hemoglobin <= 155:
-    print(f"Your hemoglobin is {hemoglobin} and it is normal.")
-else:
-    print("Your hemoglobin level is low")
-
-if gender == "male":
-    hemoglobin = int(input("Please enter your hemoglobin in m/l:"))
-if 134 <= hemoglobin <= 167:
-    print(f"Your hemoglobin is {hemoglobin} and it is normal.")
-else:
-    print("Your hemoglobin level is high")
+if hemoglobin == "female":
+    if hemoglobin < 117:
+        print("")
+ """
 
 
  
