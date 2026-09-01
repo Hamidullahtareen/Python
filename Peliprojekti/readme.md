@@ -1,2 +1,2 @@
-Pelin nimi on : Learning 
+Pelin nimi on : Findme
 Hamidullah Tareen
