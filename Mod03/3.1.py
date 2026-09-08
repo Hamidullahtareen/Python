@@ -1,7 +1,7 @@
 # Tehtävä 3.1
-name = input ("Mikä on sinun nimesi?: ")
-print ("Hei " + name + "! Mukava tavata sinut.")
-
+name = input("Give name: ")
+greeting = "Hello, " + name + "!"
+print (greeting)
 
 
 

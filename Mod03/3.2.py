@@ -1,5 +1,6 @@
 # Tehtävä 3.2
-radius_str= input ("Anna ympyrän säde: ")
+import math
+radius_str= input ("Enter the radius of the circel: ")
 radius = float(radius_str)        
-area = 3.14 * radius ** 2
-print(f"Ympyrän pinta-ala on: {area:.2f}")
+area = math.pi * radius ** 2
+print(f"The area of the circel is: {area}")

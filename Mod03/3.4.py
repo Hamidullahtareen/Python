@@ -1,17 +1,13 @@
 #Tehtävä 3.4
-number_one = input("Mikä on sinun ensimmäinen luku? ")
-number_two = input("Mikä on sinun toinen luku? ")
-number_three = input("Mikä on sinun kolmas luku? ")
+num1 = float(input("Enter the first integer: "))
+num2 = float(input("Enter the second integer: "))
+num3 = float(input("Enter the third integer: "))
 
-namber_1 = float(number_one)
-namber_2 = float(number_two)
-namber_3 = float(number_three)
+sum_of_numbers = num1 + num2 + num3
+print(f"The sum of the numbers: {sum_of_numbers}" )
 
-summa = namber_1 +namber_2 + namber_3
-print("Sinun antama numeron summa on:" , summa)
+product_of_numbers = num1 * num2 * num3
+print(f"The product of the numbers:  {product_of_numbers}" )
 
-tulon = namber_1 * namber_2 * namber_3
-print("Sinun antama numeron tulo on:" , tulon)
-
-keskiarov = summa / 2
-print("Sinun antama numeron keskiarvo on:" , keskiarov)
+average_of_numbers  = sum_of_numbers / 2
+print(f"The average of the numbers: {average_of_numbers}")

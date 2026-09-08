@@ -1,12 +1,12 @@
 #Tehtävä 3.3
-base_str = input ("Mikä on suorakulmion kanna?")
-height_str = input ("Mikä on suorakulmion korkeus?")
+length = input ("Enter the length of the rectangle: ")
+width = input ("Enter the width of the rectangle: ")
 
-base = float(base_str)
-height = float(height_str)
+length = float(length)
+width = float(width)
 
-paramitter = 2 * base + 2 * height
-print("Suorakulmion piiri on :" , + paramitter )
+perimeter = 2 * length + 2 * width
+print("The perimeter of the rectangle is" , + perimeter )
 
-area = base * height
-print("Suorankulmion pinta-ala on:" , + area)
+area = length * width
+print("The area of the rectangle is" , + area)
