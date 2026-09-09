@@ -16,7 +16,7 @@ else:
 
         command = input("Enter your command: ")
         if command == "play":
-            print("Lets go to find the tressure togither.")
+            print("Lets go to find the tressure together.")
             door = input("Chose the door you want to go: 'A'or 'B' or 'C': ")
             if door == "A":
                 print("Eaten by liones")
