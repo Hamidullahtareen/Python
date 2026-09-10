@@ -4,8 +4,8 @@ list = []
 
 while number != "":
     number = float(number)
-    number = input("Enter a number: ")
     list.append(number)
+    number = input("Enter a number: ")
 list.sort(reverse=True)
 print("The greatest numbers in descending order: ")
 
