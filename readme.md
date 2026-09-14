@@ -15,7 +15,10 @@ Tien tehtävät 4.1 , 4.2 , 4.3,  4.4.
 ## Moduuli 5
 Tien tehtävät 5.1 , 5.2, 5.3, 5.4, 5,5.
 en pysty tehdä 5.6 
-
+## Moduuli 6
+All exercise done
+## Moduuli 7
+Exercise done. 7.6 not done 
 ## Pelin projektin
 Tein ensimmäinen peliprojektin tehtävä.
 Tien toinen peliprojektin tehtävä.
