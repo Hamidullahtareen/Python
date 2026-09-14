@@ -19,6 +19,8 @@ en pysty tehdä 5.6
 All exercise done
 ## Moduuli 7
 Exercise done. 7.6 not done 
+## Moduuli 8
+Exercise done. 8.3 not done 
 ## Pelin projektin
 Tein ensimmäinen peliprojektin tehtävä.
 Tien toinen peliprojektin tehtävä.
