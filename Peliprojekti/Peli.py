@@ -25,14 +25,21 @@ else:
                 print("Eaten by wolfes.")
                 print("Start again")
             elif door == "C":
-                print("Here is the map to tressure.")
-                direction = input("Ready to be directed? 'Y' or 'N': ")
-                if direction == "Y":
-                    print("Lets gooooo.")
-                    print("from here go right and strait 200m.")
+                print("No way back from here. Lets gooooo!")
+                challeng = input("Are you ready to face the challenges? 'Y' or 'N': ")
+                if challeng == "Y":
+                    print("Then be STRONG")
+                    print("Walk straight for 200m from here.")
+                    print("Ohhhhh seems you have to chose for these three roads!!!")
+                    path = input("Chose road A, road B or road C")
+                    if path == "A":
+                        print("You chose the Forest path.")
+                        print("You walk deeper into the forest.\n After 100 meters, you see an old wooden sign.\n The sign says: Olny those who look carefully will find the way. ")
+                        print("You chose the Forest path.")
+                        
                     #here again need to put choice of 
-                elif direction == "N":
-                    print("Seems you dont need help. Good luck finding tressure.")
+                elif challeng == "N":
+                    print("Seems that you are not that strong.")
         elif command == "quite":
             print("Good Bye")
         else:
