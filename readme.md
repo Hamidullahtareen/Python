@@ -22,7 +22,9 @@ Exercise done. 7.6 not done
 ## Moduuli 8
 Exercise done. 8.3 not done 
 ## Moduuli 9
-Exercise done. 9.4 not done 
+Exercise done. 9.4 not done
+## Moduuli 10
+Exercise done. 
 ## Pelin projektin
 Tein ensimmäinen peliprojektin tehtävä.
 Tien toinen peliprojektin tehtävä.
