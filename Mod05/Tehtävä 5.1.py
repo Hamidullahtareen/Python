@@ -1,6 +1,7 @@
-n = 1000
-i = 1
-while  i <= n:
-    if i % 2 == 0:
-        print(f"{i} is even")
-    i += 1
+
+number = 1
+
+while number <= 1000:
+    if number % 3 == 0:
+        print(number)
+    number += 1

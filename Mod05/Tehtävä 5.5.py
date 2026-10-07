@@ -1,8 +1,16 @@
-user_name = input("Enter user name here: ").lower()
-password = input("Enter password name here: ").lower()
 
-while user_name != "python" or password != "rules":
-    print("Access denid. Try again")
-    user_name = input("Enter user name here: ")
-    password = input("Enter password name here: ")
-print("Access granted. Welcome to programme.")
+attempts = 0
+
+while attempts < 5:
+    username = input("Enter username: ").lower()
+    password = input("Enter password: ").lower()
+
+    if username == "python" and password == "rules":
+        print("Welcome")
+        break
+
+    attempts += 1
+    if attempts < 5:
+        print("Incorrect username or password. Please try again.")
+else:
+    print("Access denied")
