@@ -1,5 +1,5 @@
 #Tehtävä 4.2
-cabin_class = input("Please enter your cabin class:") 
+cabin_class = input("PlEnter the cabin class (LUX, A, B, or C): ") 
 cabin = "LUX" , "A" , "B" , "C"
 
 if cabin_class == "LUX":
