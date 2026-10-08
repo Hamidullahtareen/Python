@@ -235,6 +235,7 @@ def handle_cave_first_key(player):
 
 # Add more info about number 
 def handle_cave_second_key(player):
+    print("Hint: What happens to each number when you move to the next?")
     print("\n A stone panel shows a sequence: 2  4  8  16  ?")
     answer = get_input(player, "What number comes next? (or 'i' for inventory): ").strip()
     if answer == "32":
