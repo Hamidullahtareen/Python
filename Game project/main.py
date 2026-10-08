@@ -233,7 +233,6 @@ def handle_cave_first_key(player):
         print("You crush the mushrooms and miss the alcove. No key this time.")
         player.add_game_point(-1)
 
-# Add more info about number 
 def handle_cave_second_key(player):
     print("Hint: What happens to each number when you move to the next?")
     print("\n A stone panel shows a sequence: 2  4  8  16  ?")
